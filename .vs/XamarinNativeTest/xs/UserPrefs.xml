@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="multiprojId">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinUnitTest/Test.cs">
     <Files>
       <File FileName="XamarinUnitTest/Test.cs" Line="12" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="XamarinNativeTest" expanded="True" selected="True">
-            <Node name="XamarinNativeTest" expanded="True" />
-            <Node name="XamarinUnitTest" expanded="True" />
+          <Node name="XamarinNativeTest" expanded="True">
+            <Node name="XamarinNativeTest.Droid" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -27,7 +26,7 @@
   <DisabledProjects>
     <String>Droid/XamarinNativeTest.Droid.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.ItemProperties.XamarinNativeTest FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
@@ -36,7 +35,6 @@
     <MultiItemSolutionRunConfiguration Id="multiprojId" Name="Multiple Projects">
       <Items>
         <StartupItem ItemId="{B6A1E699-C7D8-4540-AB41-F4EEB3519F48}" ItemName="XamarinNativeTest.iOS" />
-        <StartupItem ItemId="{23351EFE-BA81-4FA2-A6DB-4F39F05B7B87}" ItemName="XamarinNativeTest.Droid" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>

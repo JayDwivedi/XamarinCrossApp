@@ -1,2 +1,0 @@
-# XamarinCrossApp
-xamarin cross app
