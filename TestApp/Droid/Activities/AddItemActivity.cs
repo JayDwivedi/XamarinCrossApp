@@ -20,8 +20,7 @@ namespace TestApp.Droid
             base.OnCreate(savedInstanceState);
 
             ViewModel = BrowseFragment.ViewModel;
-
-            // Create your application here
+        
             SetContentView(Resource.Layout.activity_add_item);
             saveButton = FindViewById<FloatingActionButton>(Resource.Id.save_button);
             title = FindViewById<EditText>(Resource.Id.txtTitle);
